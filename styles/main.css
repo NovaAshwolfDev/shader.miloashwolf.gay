@@ -2,7 +2,8 @@ text {
   font-family: "Oswald", sans-serif;
 }
 body {
-  background-color: #3131ff;
+  background: linear-gradient(180deg, #2000ff 0%, #08001a 100%);
+  color: white;
 }
 img {
   border-radius: 3%;
@@ -61,7 +62,10 @@ h1 {
 }
 .shader-card:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), inset 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: all 0.1 ease;
 }
+
 @keyframes tweenOut {
   0% {
     transform: scale(0.5);
