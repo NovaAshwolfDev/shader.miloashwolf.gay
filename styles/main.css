@@ -3,7 +3,9 @@ text {
 }
 body {
   background: linear-gradient(180deg, #2000ff 0%, #08001a 100%);
-  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps it in place on scroll */
+  background-size: cover;       /* stretches it to fill screen */
 }
 img {
   border-radius: 3%;
