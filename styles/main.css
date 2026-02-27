@@ -32,8 +32,8 @@ body::-webkit-scrollbar-thumb:hover {
 body {
   background: linear-gradient(180deg, #2000ff 0%, #08001a 100%);
   background-repeat: no-repeat;
-  background-attachment: fixed; /* keeps it in place on scroll */
-  background-size: cover;       /* stretches it to fill screen */
+  background-attachment: fixed; 
+  background-size: cover;       
 }
 img {
   border-radius: 3%;
@@ -44,10 +44,10 @@ h1 {
   color: #fff;
 }
 .topText {
-  display: flex; /* flex container for image + text */
-  align-items: center; /* vertically center image & text */
-  justify-content: center; /* center horizontally */
-  gap: 40px; /* space between image and text */
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
   font-family: "Oswald", sans-serif;
 }
 
